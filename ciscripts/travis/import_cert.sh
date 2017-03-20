@@ -1,7 +1,7 @@
 #!/bin/bash -ev
 
-aws s3 cp --region eu-west-1 s3://aluxian/certificates/armacdev.cer armacdev.cer
-aws s3 cp --region eu-west-1 s3://aluxian/certificates/armacdev.p12 armacdev.p12
+aws s3 cp --region eu-west-1 s3://regisbsb/certificates/armacdev.cer armacdev.cer
+aws s3 cp --region eu-west-1 s3://regisbsb/certificates/armacdev.p12 armacdev.p12
 security create-keychain -p $SIGN_DARWIN_KEYCHAIN_PASSWORD $SIGN_DARWIN_KEYCHAIN_NAME
 security default-keychain -s $SIGN_DARWIN_KEYCHAIN_NAME
 security unlock-keychain -p $SIGN_DARWIN_KEYCHAIN_PASSWORD $SIGN_DARWIN_KEYCHAIN_NAME

@@ -43,7 +43,7 @@
     }
   },
   "darwin": {
-    "bundleId": "com.aluxian.whatsie",
+    "bundleId": "com.regisbsb.whatsie",
     "appCategoryType": "public.app-category.social-networking"
   },
   "linux": {
@@ -53,13 +53,13 @@
     "section": "web"
   },
   "license": "MIT",
-  "author": "Alexandru Rosianu <me@aluxian.com>",
-  "authorName": "Alexandru Rosianu",
-  "copyright": "Copyright © Alexandru Rosianu",
+  "author": "Regis Bittencourt <regisbsbittencourt@gmail.com>",
+  "authorName": "Regis Bittencourt",
+  "copyright": "Copyright © Regis Bittencourt",
   "homepage": "https://whatsie.chat/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aluxian/Whatsie.git"
+    "url": "https://github.com/regisbsb/Whatsie.git"
   },
   "virtualUrl": "http://app.whatsie.chat",
   "piwik": {

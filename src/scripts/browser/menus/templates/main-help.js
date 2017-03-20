@@ -20,7 +20,7 @@ export default {
   }, {
     label: '&Chat on Gitter',
     click: $.all(
-      $.openUrl('https://gitter.im/Aluxian/Whatsie'),
+      $.openUrl('https://gitter.im/regisbsb/Whatsie'),
       $.analytics.trackEvent(
         eventCategories['Menu'],
         eventActions['Open Link'],
@@ -64,7 +64,7 @@ export default {
   }, {
     label: '&Email Developer',
     click: $.all(
-      $.openUrl('mailto:whatsie@aluxian.com'),
+      $.openUrl('mailto:whatsie@regis.ws'),
       $.analytics.trackEvent(
         eventCategories['Menu'],
         eventActions['Open Link'],
@@ -74,7 +74,7 @@ export default {
   }, {
     label: '&Tweet Developer',
     click: $.all(
-      $.openUrl('https://twitter.com/Aluxian'),
+      $.openUrl('https://twitter.com/regisbsb'),
       $.analytics.trackEvent(
         eventCategories['Menu'],
         eventActions['Open Link'],
